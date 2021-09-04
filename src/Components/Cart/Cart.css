@@ -1,0 +1,15 @@
+.order-summary{
+    position: relative;
+}
+.order-summary::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(194, 193, 193);
+    width: 60%;
+    height: 1px;
+    bottom: -10px;
+    left: 0px;
+}
+.price{
+    font-weight: bold;
+}

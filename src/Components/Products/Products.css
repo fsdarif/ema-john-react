@@ -1,0 +1,27 @@
+.singleProduct{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    
+}
+.productImage{
+}
+.productDetails{
+    padding: 0 30px;
+}
+.productDetails h3{
+    color: #333;
+    font-weight: 400;
+}
+.add-btn{
+    background-color: tomato;
+    border: 1px solid #aaaaaa;
+    color: #fff;
+    padding: 8px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.add-btn:hover{
+    background-color: red;
+}
